@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    
+
+    
+}
+
+.Header{
+    color: white;
+    margin: 5%;
+    padding: 5%;
+    text-align: left;
+}
+#Header2{
+    color: red;
+    margin: 5%;
+    padding: 5%;
+    text-align: right;
+}.p{
+    color: white;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
