@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            grid-template-columns: 1fr 2fr 2fr;
+            grid-template-rows: 135px 594px;
+        }
+        .header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .menu{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .main{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="background-color: gray;">Header</div>
+        <div class="menu" style="background-color: maroon;">Menu</div>
+        <div class="main" style="background-color: lightblue;">Main</div>
+    </div>
+    
+</body>
+</html>
